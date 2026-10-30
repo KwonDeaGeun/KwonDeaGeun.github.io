@@ -839,6 +839,9 @@ footer .page-wrap > a:last-child {
 	font-size: 32px;
 }
 .entry-company {
+	font-size: 23px;
+}
+.entry-detail h4 {
 	font-size: 20px;
 }
 @media (max-width: 640px) {
@@ -853,6 +856,9 @@ footer .page-wrap > a:last-child {
 		font-size: 26px;
 	}
 	.entry-company {
+		font-size: 20px;
+	}
+	.entry-detail h4 {
 		font-size: 18px;
 	}
 }
