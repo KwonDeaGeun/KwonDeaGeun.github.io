@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f2ec" />
+    <meta name="description" content="사용자 흐름과 운영 문제를 제품으로 해결하는 프론트엔드 개발자 권대근의 포트폴리오입니다." />
+    <title>권대근 — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="권대근 포트폴리오 홈">KD<span>.</span></a>
+      <nav id="main-nav" aria-label="주요 메뉴">
+        <a href="#about">About Me</a>
+        <a href="#career">Career</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <a class="header-contact" href="#contact">Contact Me <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="about-section" id="about">
+      <div class="hero page-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-label">01 / ABOUT ME · FRONTEND DEVELOPER</span></div>
+          <h1>불편한 흐름을<br />좋은 <span class="serif-italic">경험</span>으로<br />바꿉니다<span class="accent">.</span></h1>
+          <p class="hero-summary">운영 과정의 불편을 발견하고 이를 서비스 개선으로 연결하는 프론트엔드 개발자 <strong>권대근</strong>입니다. 동아리 운영 자동화 서비스에서 가입 절차를 개선하고, 사용자 피드백을 반영해 인증 흐름을 다듬었습니다.</p>
+          <div class="about-links">
+            <a href="mailto:dk31415@naver.com">Email <span>↗</span></a>
+            <a href="https://github.com/KwonDeaGeun" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://dk1224.tistory.com/" target="_blank" rel="noreferrer">Blog <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="서비스 흐름과 사용자 경험을 표현한 그래픽">
+          <div class="art-top"><span>FIELD NOTES / 01</span><span>2024 — 2026</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="orbit-core"><span>USER</span><b>↗</b></div>
+          <div class="orbit-node node-a"><i>01</i><span>발견</span></div>
+          <div class="orbit-node node-b"><i>02</i><span>설계</span></div>
+          <div class="orbit-node node-c"><i>03</i><span>개선</span></div>
+          <div class="art-caption"><span>좋은 제품은 작은 불편을<br />지나치지 않는 데서 시작됩니다.</span><b>↘</b></div>
+          <span class="art-cross cross-a">+</span><span class="art-cross cross-b">+</span>
+        </div>
+        <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
+      </div>
+      </section>
+
+      <section class="career-section" id="career">
+        <div class="page-wrap career-wrap">
+          <div class="section-heading career-heading"><div><div class="section-kicker">02 / CAREER</div></div></div>
+          <article class="experience-entry">
+            <h3 class="entry-company">Oneclick AI<span class="company-dot dot-oneclick"></span></h3>
+            <div class="entry-meta">
+              <div class="meta-row"><strong>period</strong><span>2026.07 ~ 2026.08</span></div>
+              <div class="meta-row"><strong>position</strong><span>Frontend Developer</span></div>
+              <div class="meta-row"><strong>projects</strong><span>로봇 시뮬레이션</span></div>
+            </div>
+            <div class="entry-detail">
+              <h4>로봇 시뮬레이션</h4>
+              <ul>
+                <li>로봇팔 관절과 그리퍼를 제어하고, Rapier 물리 엔진을 연동해 물체 집기·이동·놓기 동작 구현</li>
+                <li>드래그 앤 드롭 블록 코딩, 단계별 실행, URL 시퀀스 공유 기능 구현</li>
+                <li>차체·그리퍼 충돌 시 실행 중단, 직전 자세 복원 및 실패 원인 안내 처리</li>
+                <li>A* 기반 목적지 경로 탐색과 경로 추종을 위한 조향·가감속 제어 구현</li>
+              </ul>
+              <h5>Description</h5>
+              <p>Three.js 기반 인터랙티브 시뮬레이션에서 블록 코딩 명령을 로봇 동작으로 연결하고, 물리 상호작용과 경로 탐색을 구현했습니다.</p>
+              <h5>Tech Stack</h5>
+              <ul class="tech-list"><li>Three.js</li><li>Rapier</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="work-section page-wrap" id="projects">
+        <div class="section-heading">
+          <div><div class="section-kicker">03 / PROJECTS</div></div>
+        </div>
+        <article class="experience-entry">
+          <h3 class="entry-company">Aegis Web<span class="company-dot dot-aegis"></span></h3>
+          <div class="entry-meta">
+            <div class="meta-row"><strong>period</strong><span>2024.12 ~ 현재</span></div>
+            <div class="meta-row"><strong>position</strong><span>개발 및 운영</span></div>
+            <div class="meta-row"><strong>projects</strong><span>교내 중앙동아리 운영 자동화 서비스</span></div>
+          </div>
+          <div class="entry-detail">
+            <h4>통합 멤버십 서비스</h4>
+            <ul>
+              <li>회원가입·스터디·마이페이지 앱을 React Router 기반 단일 애플리케이션으로 통합하고 공통 API 클라이언트 구성</li>
+              <li>약 100명의 신규 회원 가입 과정에서 운영진이 수작업하던 회비 확인·연락처 저장·카카오톡방 초대 업무를 웹 절차로 전환</li>
+              <li>로그인 전 진입 목적과 가입 완료 여부에 따라 후속 화면으로 연결하는 공통 인증 흐름 구현</li>
+              <li>스터디 신청·취소 후 관련 캐시를 갱신하고, 회비 납부 상태는 폴링으로 확인해 UI에 반영</li>
+            </ul>
+            <h5>Description</h5>
+            <p>분리된 동아리 서비스를 통합하고 반복적인 가입·운영 업무를 웹 서비스로 자동화했습니다. 사용자 피드백을 반영해 인증 및 서버 상태와 UI의 동기화 흐름을 개선했습니다.</p>
+            <h5>Tech Stack</h5>
+            <ul class="tech-list"><li>React</li><li>React Router</li><li>TanStack Query</li></ul>
+          </div>
+        </article>
+        <article class="experience-entry">
+          <h3 class="entry-company">올해의 첫 소리<span class="company-dot dot-firstnote"></span></h3>
+          <div class="entry-meta">
+            <div class="meta-row"><strong>period</strong><span>2025.08 ~ 2025.12</span></div>
+            <div class="meta-row"><strong>position</strong><span>Frontend Developer</span></div>
+            <div class="meta-row"><strong>projects</strong><span>새해 음악 롤링페이퍼 서비스</span></div>
+          </div>
+          <div class="entry-detail">
+            <h4>새해 음악 롤링페이퍼</h4>
+            <ul>
+              <li>소형 모바일 환경에서도 안정적으로 동작하는 반응형 UI 구현</li>
+              <li>여러 페이지에서 공유하는 새해 상태를 Zustand 전역 상태로 관리</li>
+              <li>setInterval 기반 동기화로 클라이언트와 서버 시간 오차를 줄여 새해 전환을 일관되게 처리</li>
+              <li>Storybook에서 UI 컴포넌트를 독립적으로 검증하는 환경 구축</li>
+            </ul>
+            <h5>Description</h5>
+            <p>새해를 함께 기다리며 음악을 나누는 롤링페이퍼 서비스입니다. 새해 전환 시각의 상태 동기화와 작은 화면에서의 사용성을 중심으로 구현했습니다.</p>
+            <h5>Tech Stack</h5>
+            <ul class="tech-list"><li>React</li><li>Zustand</li><li>Storybook</li></ul>
+            <a class="project-link" href="https://github.com/First-Note-of-this-Year/Frontend" target="_blank" rel="noreferrer">GitHub에서 보기 <span>↗</span></a>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact-section page-wrap" id="contact">
+        <div class="section-kicker">04 / CONTACT ME</div><div class="contact-content"><div class="contact-bottom"><p>새로운 문제와 좋은 동료를 기다립니다.<br />편하게 연락 주세요.</p></div></div>
+      </section>
+    </main>
+    <footer><div class="page-wrap"><a class="wordmark" href="#top">KD<span>.</span></a><span>사용자의 작은 불편을 더 나은 제품으로.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
